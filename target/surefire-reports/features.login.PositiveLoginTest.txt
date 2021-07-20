@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: features.login.PositiveLoginTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 25.734 s <<< FAILURE! - in features.login.PositiveLoginTest
+loginWithBaseUserTest  Time elapsed: 14.75 s  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=91.0.4472.164)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UBVVRM2', ip: '192.168.43.92', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\19FB~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54120}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 534e19a7b7b4497870479165939a1708
+	at features.login.PositiveLoginTest.loginWithBaseUserTest(PositiveLoginTest.java:26)
+
+loginWithCookieTest  Time elapsed: 10.975 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <https://crm.geekbrains.space/user/login> but was: <https://crm.geekbrains.space/>
+	at features.login.PositiveLoginTest.loginWithCookieTest(PositiveLoginTest.java:43)
+
