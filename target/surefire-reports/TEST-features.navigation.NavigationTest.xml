@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="features.navigation.NavigationTest" time="108.865" tests="9" errors="9" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\ВАИПУ\IdeaProjects\lesson 7\target\test-classes;C:\Users\ВАИПУ\IdeaProjects\lesson 7\target\classes;C:\Users\ВАИПУ\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\ВАИПУ\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\ВАИПУ\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\ВАИПУ\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\ВАИПУ\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\ВАИПУ\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\ВАИПУ\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\ВАИПУ\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\ВАИПУ\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\ВАИПУ\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\ВАИПУ\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\ВАИПУ\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ВАИПУ\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\ВАИПУ\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ВАИПУ\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\ВАИПУ\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\ВАИПУ\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ВАИПУ\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\ВАИПУ\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\ВАИПУ\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\ВАИПУ\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\ВАИПУ\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\ВАИПУ\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\ВАИПУ\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\ВАИПУ\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\ВАИПУ\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\ВАИПУ\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\ВАИПУ\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\ВАИПУ\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\ВАИПУ\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\ВАИПУ\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\ВАИПУ\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\ВАИПУ\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\ВАИПУ\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\ВАИПУ\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;C:\Users\ВАИПУ\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ВАИПУ\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\ВАИПУ\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\ВАИПУ\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\ВАИПУ\.m2\repository\org\junit\platform\junit-platform-console-standalone\1.7.2\junit-platform-console-standalone-1.7.2.jar;C:\Users\ВАИПУ\.m2\repository\io\qameta\allure\allure-junit5\2.14.0\allure-junit5-2.14.0.jar;C:\Users\ВАИПУ\.m2\repository\io\qameta\allure\allure-junit-platform\2.14.0\allure-junit-platform-2.14.0.jar;C:\Users\ВАИПУ\.m2\repository\io\qameta\allure\allure-java-commons\2.14.0\allure-java-commons-2.14.0.jar;C:\Users\ВАИПУ\.m2\repository\io\qameta\allure\allure-model\2.14.0\allure-model-2.14.0.jar;C:\Users\ВАИПУ\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\ВАИПУ\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\ВАИПУ\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\ВАИПУ\.m2\repository\org\apache\tika\tika-core\1.26\tika-core-1.26.jar;C:\Users\ВАИПУ\.m2\repository\org\jooq\joor-java-8\0.9.14\joor-java-8-0.9.14.jar;C:\Users\ВАИПУ\.m2\repository\io\qameta\allure\allure-test-filter\2.14.0\allure-test-filter-2.14.0.jar;C:\Users\ВАИПУ\.m2\repository\org\junit\platform\junit-platform-launcher\1.7.2\junit-platform-launcher-1.7.2.jar;C:\Users\ВАИПУ\.m2\repository\org\slf4j\slf4j-simple\1.7.31\slf4j-simple-1.7.31.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\19FB~1\AppData\Local\Temp\surefire4240867418958783277\surefirebooter4220790534841467088.jar C:\Users\ВАИПУ\AppData\Local\Temp\surefire4240867418958783277 2021-07-20T17-36-08_070-jvmRun1 surefire6311290159969162381tmp surefire_06400657512880046501tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\ВАИПУ\IdeaProjects\lesson 7\target\test-classes;C:\Users\ВАИПУ\IdeaProjects\lesson 7\target\classes;C:\Users\ВАИПУ\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\ВАИПУ\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\ВАИПУ\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\ВАИПУ\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\ВАИПУ\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\ВАИПУ\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\ВАИПУ\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\ВАИПУ\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\ВАИПУ\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\ВАИПУ\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\ВАИПУ\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\ВАИПУ\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ВАИПУ\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\ВАИПУ\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ВАИПУ\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\ВАИПУ\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\ВАИПУ\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ВАИПУ\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\ВАИПУ\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\ВАИПУ\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\ВАИПУ\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\ВАИПУ\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\ВАИПУ\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\ВАИПУ\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\ВАИПУ\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\ВАИПУ\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\ВАИПУ\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\ВАИПУ\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\ВАИПУ\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\ВАИПУ\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\ВАИПУ\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\ВАИПУ\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\ВАИПУ\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\ВАИПУ\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\ВАИПУ\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;C:\Users\ВАИПУ\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ВАИПУ\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\ВАИПУ\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\ВАИПУ\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\ВАИПУ\.m2\repository\org\junit\platform\junit-platform-console-standalone\1.7.2\junit-platform-console-standalone-1.7.2.jar;C:\Users\ВАИПУ\.m2\repository\io\qameta\allure\allure-junit5\2.14.0\allure-junit5-2.14.0.jar;C:\Users\ВАИПУ\.m2\repository\io\qameta\allure\allure-junit-platform\2.14.0\allure-junit-platform-2.14.0.jar;C:\Users\ВАИПУ\.m2\repository\io\qameta\allure\allure-java-commons\2.14.0\allure-java-commons-2.14.0.jar;C:\Users\ВАИПУ\.m2\repository\io\qameta\allure\allure-model\2.14.0\allure-model-2.14.0.jar;C:\Users\ВАИПУ\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\ВАИПУ\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\ВАИПУ\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\ВАИПУ\.m2\repository\org\apache\tika\tika-core\1.26\tika-core-1.26.jar;C:\Users\ВАИПУ\.m2\repository\org\jooq\joor-java-8\0.9.14\joor-java-8-0.9.14.jar;C:\Users\ВАИПУ\.m2\repository\io\qameta\allure\allure-test-filter\2.14.0\allure-test-filter-2.14.0.jar;C:\Users\ВАИПУ\.m2\repository\org\junit\platform\junit-platform-launcher\1.7.2\junit-platform-launcher-1.7.2.jar;C:\Users\ВАИПУ\.m2\repository\org\slf4j\slf4j-simple\1.7.31\slf4j-simple-1.7.31.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ВАИПУ"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_271\jre"/>
+    <property name="basedir" value="C:\Users\ВАИПУ\IdeaProjects\lesson 7"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\19FB~1\AppData\Local\Temp\surefire4240867418958783277\surefirebooter4220790534841467088.jar;C:\Users\ВАИПУ\.m2\repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_271\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_271-b09"/>
+    <property name="user.name" value="ВАИПУ"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ВАИПУ\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\19FB~1\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2020.3.3"/>
+    <property name="java.version" value="1.8.0_271"/>
+    <property name="user.dir" value="C:\Users\ВАИПУ\IdeaProjects\lesson 7"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\IVI\bin;C:\Program Files\IVI Foundation\IVI\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files (x86)\Brackets\command;C:\Program Files\Git\cmd;C:\Users\ВАИПУ\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Multipass\bin;C:\Users\ВАИПУ\AppData\Local\Programs\Fiddler;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.3\bin;C:\Users\ВАИПУ\AppData\Local\Microsoft\WindowsApps;C:\Users\ВАИПУ\AppData\Local\GitHubDesktop\bin;C:\Users\ВАИПУ\AppData\Local\gitkraken\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.271-b09"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="checkMainNavigationTabsTest{NavigationBarTabs}[1]" classname="features.navigation.NavigationTest" time="13.271">
+    <error message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=91.0.4472.164)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-UBVVRM2&apos;, ip: &apos;192.168.43.92&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\19FB~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51116}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 98d57d7de9ff8b742693ad0b7bfe53c4" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=91.0.4472.164)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UBVVRM2', ip: '192.168.43.92', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\19FB~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51116}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 98d57d7de9ff8b742693ad0b7bfe53c4
+	at features.navigation.NavigationTest.checkMainNavigationTabsTest(NavigationTest.java:20)
+</error>
+    <system-out><![CDATA[========================= START LOG BROWSER =============
+========================= END LOG BROWSER =============
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 91.0.4472.101 (resolved driver for Chrome 91)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ВАИПУ\.cache\selenium\chromedriver\win32\91.0.4472.101\chromedriver.exe
+Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 45925
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+июл 20, 2021 5:36:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+июл 20, 2021 5:36:56 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: setTimeout [98d57d7de9ff8b742693ad0b7bfe53c4, setTimeout {implicit=10000}]
+июл 20, 2021 5:36:56 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [98d57d7de9ff8b742693ad0b7bfe53c4, setTimeout {implicit=10000}]
+июл 20, 2021 5:36:56 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: maximizeCurrentWindow [98d57d7de9ff8b742693ad0b7bfe53c4, maximizeCurrentWindow {}]
+июл 20, 2021 5:36:56 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [98d57d7de9ff8b742693ad0b7bfe53c4, maximizeCurrentWindow {}]
+июл 20, 2021 5:36:56 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: get [98d57d7de9ff8b742693ad0b7bfe53c4, get {url=https://crm.geekbrains.space/user/login}]
+июл 20, 2021 5:37:01 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [98d57d7de9ff8b742693ad0b7bfe53c4, get {url=https://crm.geekbrains.space/user/login}]
+[main] INFO org.openqa.selenium.WebDriver - Перед поиском элемента path: By.cssSelector: input[id='prependedInput']
+июл 20, 2021 5:37:01 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [98d57d7de9ff8b742693ad0b7bfe53c4, findElement {using=css selector, value=input[id='prependedInput']}]
+июл 20, 2021 5:37:01 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [98d57d7de9ff8b742693ad0b7bfe53c4, findElement {using=css selector, value=input[id='prependedInput']}]
+июл 20, 2021 5:37:01 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: sendKeysToElement [98d57d7de9ff8b742693ad0b7bfe53c4, sendKeysToElement {id=6f63511c-4ecf-42c9-a6ee-4f25376a2c24, value=[Ljava.lang.CharSequence;@6cceb281}]
+июл 20, 2021 5:37:01 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [98d57d7de9ff8b742693ad0b7bfe53c4, sendKeysToElement {id=6f63511c-4ecf-42c9-a6ee-4f25376a2c24, value=[Ljava.lang.CharSequence;@6cceb281}]
+[main] INFO org.openqa.selenium.WebDriver - Перед поиском элемента path: By.cssSelector: .span2[name='_password']
+июл 20, 2021 5:37:01 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [98d57d7de9ff8b742693ad0b7bfe53c4, findElement {using=css selector, value=.span2[name='_password']}]
+июл 20, 2021 5:37:01 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [98d57d7de9ff8b742693ad0b7bfe53c4, findElement {using=css selector, value=.span2[name='_password']}]
+июл 20, 2021 5:37:01 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: sendKeysToElement [98d57d7de9ff8b742693ad0b7bfe53c4, sendKeysToElement {id=00ae46ba-8ada-4e22-b893-388641682ec0, value=[Ljava.lang.CharSequence;@6a51ae7c}]
+июл 20, 2021 5:37:01 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [98d57d7de9ff8b742693ad0b7bfe53c4, sendKeysToElement {id=00ae46ba-8ada-4e22-b893-388641682ec0, value=[Ljava.lang.CharSequence;@6a51ae7c}]
+[main] INFO org.openqa.selenium.WebDriver - Перед поиском элемента path: By.xpath: .//button[@name='_submit']
+июл 20, 2021 5:37:01 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [98d57d7de9ff8b742693ad0b7bfe53c4, findElement {using=xpath, value=.//button[@name='_submit']}]
+июл 20, 2021 5:37:01 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [98d57d7de9ff8b742693ad0b7bfe53c4, findElement {using=xpath, value=.//button[@name='_submit']}]
+июл 20, 2021 5:37:01 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: getElementTagName [98d57d7de9ff8b742693ad0b7bfe53c4, getElementTagName {id=f884f95f-7e1b-4494-9f1e-071709412946}]
+июл 20, 2021 5:37:01 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [98d57d7de9ff8b742693ad0b7bfe53c4, getElementTagName {id=f884f95f-7e1b-4494-9f1e-071709412946}]
+июл 20, 2021 5:37:01 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: isElementEnabled [98d57d7de9ff8b742693ad0b7bfe53c4, isElementEnabled {id=f884f95f-7e1b-4494-9f1e-071709412946}]
+июл 20, 2021 5:37:01 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [98d57d7de9ff8b742693ad0b7bfe53c4, isElementEnabled {id=f884f95f-7e1b-4494-9f1e-071709412946}]
+июл 20, 2021 5:37:01 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: isElementDisplayed [98d57d7de9ff8b742693ad0b7bfe53c4, isElementDisplayed {id=f884f95f-7e1b-4494-9f1e-071709412946}]
+июл 20, 2021 5:37:01 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [98d57d7de9ff8b742693ad0b7bfe53c4, isElementDisplayed {id=f884f95f-7e1b-4494-9f1e-071709412946}]
+[main] INFO org.openqa.selenium.WebDriver - Before click on element with tagname = button, enabled = true, is_displayed = true 
+июл 20, 2021 5:37:01 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: clickElement [98d57d7de9ff8b742693ad0b7bfe53c4, clickElement {id=f884f95f-7e1b-4494-9f1e-071709412946}]
+июл 20, 2021 5:37:07 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [98d57d7de9ff8b742693ad0b7bfe53c4, clickElement {id=f884f95f-7e1b-4494-9f1e-071709412946}]
+июл 20, 2021 5:37:07 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: getElementTagName [98d57d7de9ff8b742693ad0b7bfe53c4, getElementTagName {id=f884f95f-7e1b-4494-9f1e-071709412946}]
+июл 20, 2021 5:37:07 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [98d57d7de9ff8b742693ad0b7bfe53c4, getElementTagName {id=f884f95f-7e1b-4494-9f1e-071709412946}]
+июл 20, 2021 5:37:07 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: screenshot [98d57d7de9ff8b742693ad0b7bfe53c4, screenshot {}]
+июл 20, 2021 5:37:07 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [98d57d7de9ff8b742693ad0b7bfe53c4, screenshot {}]
+[main] ERROR org.openqa.selenium.WebDriver - onException: Screenshot saved in target/failure-screenshot-1626791827281.png
+июл 20, 2021 5:37:07 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: getLog [98d57d7de9ff8b742693ad0b7bfe53c4, getLog {type=browser}]
+июл 20, 2021 5:37:07 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [98d57d7de9ff8b742693ad0b7bfe53c4, getLog {type=browser}]
+июл 20, 2021 5:37:07 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: quit [98d57d7de9ff8b742693ad0b7bfe53c4, quit {}]
+июл 20, 2021 5:37:08 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [98d57d7de9ff8b742693ad0b7bfe53c4, quit {}]
+]]></system-err>
+  </testcase>
+  <testcase name="checkMainNavigationTabsTest{NavigationBarTabs}[2]" classname="features.navigation.NavigationTest" time="11.699">
+    <error message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=91.0.4472.164)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-UBVVRM2&apos;, ip: &apos;192.168.43.92&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\19FB~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57089}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d8f4c5cd7488fbb55679ecdc18d35919" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=91.0.4472.164)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UBVVRM2', ip: '192.168.43.92', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\19FB~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57089}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d8f4c5cd7488fbb55679ecdc18d35919
+	at features.navigation.NavigationTest.checkMainNavigationTabsTest(NavigationTest.java:20)
+</error>
+    <system-out><![CDATA[========================= START LOG BROWSER =============
+========================= END LOG BROWSER =============
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 42662
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+июл 20, 2021 5:37:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+июл 20, 2021 5:37:09 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: setTimeout [d8f4c5cd7488fbb55679ecdc18d35919, setTimeout {implicit=10000}]
+июл 20, 2021 5:37:09 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [d8f4c5cd7488fbb55679ecdc18d35919, setTimeout {implicit=10000}]
+июл 20, 2021 5:37:09 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: maximizeCurrentWindow [d8f4c5cd7488fbb55679ecdc18d35919, maximizeCurrentWindow {}]
+июл 20, 2021 5:37:09 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [d8f4c5cd7488fbb55679ecdc18d35919, maximizeCurrentWindow {}]
+июл 20, 2021 5:37:09 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: get [d8f4c5cd7488fbb55679ecdc18d35919, get {url=https://crm.geekbrains.space/user/login}]
+июл 20, 2021 5:37:13 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [d8f4c5cd7488fbb55679ecdc18d35919, get {url=https://crm.geekbrains.space/user/login}]
+[main] INFO org.openqa.selenium.WebDriver - Перед поиском элемента path: By.cssSelector: input[id='prependedInput']
+июл 20, 2021 5:37:13 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [d8f4c5cd7488fbb55679ecdc18d35919, findElement {using=css selector, value=input[id='prependedInput']}]
+июл 20, 2021 5:37:13 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [d8f4c5cd7488fbb55679ecdc18d35919, findElement {using=css selector, value=input[id='prependedInput']}]
+июл 20, 2021 5:37:13 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: sendKeysToElement [d8f4c5cd7488fbb55679ecdc18d35919, sendKeysToElement {id=9dbc9aeb-7b2f-43e2-a905-65964a20d651, value=[Ljava.lang.CharSequence;@15f2a43f}]
+июл 20, 2021 5:37:13 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [d8f4c5cd7488fbb55679ecdc18d35919, sendKeysToElement {id=9dbc9aeb-7b2f-43e2-a905-65964a20d651, value=[Ljava.lang.CharSequence;@15f2a43f}]
+[main] INFO org.openqa.selenium.WebDriver - Перед поиском элемента path: By.cssSelector: .span2[name='_password']
+июл 20, 2021 5:37:13 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [d8f4c5cd7488fbb55679ecdc18d35919, findElement {using=css selector, value=.span2[name='_password']}]
+июл 20, 2021 5:37:13 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [d8f4c5cd7488fbb55679ecdc18d35919, findElement {using=css selector, value=.span2[name='_password']}]
+июл 20, 2021 5:37:13 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: sendKeysToElement [d8f4c5cd7488fbb55679ecdc18d35919, sendKeysToElement {id=76ecec75-676a-4b6e-8340-640cebd662cd, value=[Ljava.lang.CharSequence;@165d1d54}]
+июл 20, 2021 5:37:14 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [d8f4c5cd7488fbb55679ecdc18d35919, sendKeysToElement {id=76ecec75-676a-4b6e-8340-640cebd662cd, value=[Ljava.lang.CharSequence;@165d1d54}]
+[main] INFO org.openqa.selenium.WebDriver - Перед поиском элемента path: By.xpath: .//button[@name='_submit']
+июл 20, 2021 5:37:14 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [d8f4c5cd7488fbb55679ecdc18d35919, findElement {using=xpath, value=.//button[@name='_submit']}]
+июл 20, 2021 5:37:14 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [d8f4c5cd7488fbb55679ecdc18d35919, findElement {using=xpath, value=.//button[@name='_submit']}]
+июл 20, 2021 5:37:14 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: getElementTagName [d8f4c5cd7488fbb55679ecdc18d35919, getElementTagName {id=0c4615d3-f0db-471e-80d0-62ff13fe99c0}]
+июл 20, 2021 5:37:14 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [d8f4c5cd7488fbb55679ecdc18d35919, getElementTagName {id=0c4615d3-f0db-471e-80d0-62ff13fe99c0}]
+июл 20, 2021 5:37:14 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: isElementEnabled [d8f4c5cd7488fbb55679ecdc18d35919, isElementEnabled {id=0c4615d3-f0db-471e-80d0-62ff13fe99c0}]
+июл 20, 2021 5:37:14 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [d8f4c5cd7488fbb55679ecdc18d35919, isElementEnabled {id=0c4615d3-f0db-471e-80d0-62ff13fe99c0}]
+июл 20, 2021 5:37:14 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: isElementDisplayed [d8f4c5cd7488fbb55679ecdc18d35919, isElementDisplayed {id=0c4615d3-f0db-471e-80d0-62ff13fe99c0}]
+июл 20, 2021 5:37:14 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [d8f4c5cd7488fbb55679ecdc18d35919, isElementDisplayed {id=0c4615d3-f0db-471e-80d0-62ff13fe99c0}]
+[main] INFO org.openqa.selenium.WebDriver - Before click on element with tagname = button, enabled = true, is_displayed = true 
+июл 20, 2021 5:37:14 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: clickElement [d8f4c5cd7488fbb55679ecdc18d35919, clickElement {id=0c4615d3-f0db-471e-80d0-62ff13fe99c0}]
+июл 20, 2021 5:37:19 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [d8f4c5cd7488fbb55679ecdc18d35919, clickElement {id=0c4615d3-f0db-471e-80d0-62ff13fe99c0}]
+июл 20, 2021 5:37:19 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: getElementTagName [d8f4c5cd7488fbb55679ecdc18d35919, getElementTagName {id=0c4615d3-f0db-471e-80d0-62ff13fe99c0}]
+июл 20, 2021 5:37:19 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [d8f4c5cd7488fbb55679ecdc18d35919, getElementTagName {id=0c4615d3-f0db-471e-80d0-62ff13fe99c0}]
+июл 20, 2021 5:37:19 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: screenshot [d8f4c5cd7488fbb55679ecdc18d35919, screenshot {}]
+июл 20, 2021 5:37:19 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [d8f4c5cd7488fbb55679ecdc18d35919, screenshot {}]
+[main] ERROR org.openqa.selenium.WebDriver - onException: Screenshot saved in target/failure-screenshot-1626791839030.png
+июл 20, 2021 5:37:19 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: getLog [d8f4c5cd7488fbb55679ecdc18d35919, getLog {type=browser}]
+июл 20, 2021 5:37:19 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [d8f4c5cd7488fbb55679ecdc18d35919, getLog {type=browser}]
+июл 20, 2021 5:37:19 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: quit [d8f4c5cd7488fbb55679ecdc18d35919, quit {}]
+июл 20, 2021 5:37:19 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [d8f4c5cd7488fbb55679ecdc18d35919, quit {}]
+]]></system-err>
+  </testcase>
+  <testcase name="checkMainNavigationTabsTest{NavigationBarTabs}[3]" classname="features.navigation.NavigationTest" time="14.084">
+    <error message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=91.0.4472.164)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-UBVVRM2&apos;, ip: &apos;192.168.43.92&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\19FB~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59134}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 30a1d3d7a4639a1792eae9dac52583a7" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=91.0.4472.164)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UBVVRM2', ip: '192.168.43.92', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\19FB~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59134}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 30a1d3d7a4639a1792eae9dac52583a7
+	at features.navigation.NavigationTest.checkMainNavigationTabsTest(NavigationTest.java:20)
+</error>
+    <system-out><![CDATA[========================= START LOG BROWSER =============
+========================= END LOG BROWSER =============
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 29236
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+июл 20, 2021 5:37:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+июл 20, 2021 5:37:21 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: setTimeout [30a1d3d7a4639a1792eae9dac52583a7, setTimeout {implicit=10000}]
+июл 20, 2021 5:37:21 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [30a1d3d7a4639a1792eae9dac52583a7, setTimeout {implicit=10000}]
+июл 20, 2021 5:37:21 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: maximizeCurrentWindow [30a1d3d7a4639a1792eae9dac52583a7, maximizeCurrentWindow {}]
+июл 20, 2021 5:37:21 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [30a1d3d7a4639a1792eae9dac52583a7, maximizeCurrentWindow {}]
+июл 20, 2021 5:37:21 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: get [30a1d3d7a4639a1792eae9dac52583a7, get {url=https://crm.geekbrains.space/user/login}]
+июл 20, 2021 5:37:28 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [30a1d3d7a4639a1792eae9dac52583a7, get {url=https://crm.geekbrains.space/user/login}]
+[main] INFO org.openqa.selenium.WebDriver - Перед поиском элемента path: By.cssSelector: input[id='prependedInput']
+июл 20, 2021 5:37:28 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [30a1d3d7a4639a1792eae9dac52583a7, findElement {using=css selector, value=input[id='prependedInput']}]
+июл 20, 2021 5:37:28 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [30a1d3d7a4639a1792eae9dac52583a7, findElement {using=css selector, value=input[id='prependedInput']}]
+июл 20, 2021 5:37:28 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: sendKeysToElement [30a1d3d7a4639a1792eae9dac52583a7, sendKeysToElement {id=7baaa727-1096-42a4-b413-8ec7a884aa3f, value=[Ljava.lang.CharSequence;@41167ded}]
+июл 20, 2021 5:37:28 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [30a1d3d7a4639a1792eae9dac52583a7, sendKeysToElement {id=7baaa727-1096-42a4-b413-8ec7a884aa3f, value=[Ljava.lang.CharSequence;@41167ded}]
+[main] INFO org.openqa.selenium.WebDriver - Перед поиском элемента path: By.cssSelector: .span2[name='_password']
+июл 20, 2021 5:37:28 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [30a1d3d7a4639a1792eae9dac52583a7, findElement {using=css selector, value=.span2[name='_password']}]
+июл 20, 2021 5:37:28 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [30a1d3d7a4639a1792eae9dac52583a7, findElement {using=css selector, value=.span2[name='_password']}]
+июл 20, 2021 5:37:28 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: sendKeysToElement [30a1d3d7a4639a1792eae9dac52583a7, sendKeysToElement {id=912771ec-bbdd-4561-a7ce-99234033a4c5, value=[Ljava.lang.CharSequence;@1aed6f0b}]
+июл 20, 2021 5:37:28 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [30a1d3d7a4639a1792eae9dac52583a7, sendKeysToElement {id=912771ec-bbdd-4561-a7ce-99234033a4c5, value=[Ljava.lang.CharSequence;@1aed6f0b}]
+[main] INFO org.openqa.selenium.WebDriver - Перед поиском элемента path: By.xpath: .//button[@name='_submit']
+июл 20, 2021 5:37:28 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [30a1d3d7a4639a1792eae9dac52583a7, findElement {using=xpath, value=.//button[@name='_submit']}]
+июл 20, 2021 5:37:28 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [30a1d3d7a4639a1792eae9dac52583a7, findElement {using=xpath, value=.//button[@name='_submit']}]
+июл 20, 2021 5:37:28 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: getElementTagName [30a1d3d7a4639a1792eae9dac52583a7, getElementTagName {id=f635574a-c1fa-4949-b1d6-e252d66856a0}]
+июл 20, 2021 5:37:28 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [30a1d3d7a4639a1792eae9dac52583a7, getElementTagName {id=f635574a-c1fa-4949-b1d6-e252d66856a0}]
+июл 20, 2021 5:37:28 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: isElementEnabled [30a1d3d7a4639a1792eae9dac52583a7, isElementEnabled {id=f635574a-c1fa-4949-b1d6-e252d66856a0}]
+июл 20, 2021 5:37:28 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [30a1d3d7a4639a1792eae9dac52583a7, isElementEnabled {id=f635574a-c1fa-4949-b1d6-e252d66856a0}]
+июл 20, 2021 5:37:28 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: isElementDisplayed [30a1d3d7a4639a1792eae9dac52583a7, isElementDisplayed {id=f635574a-c1fa-4949-b1d6-e252d66856a0}]
+июл 20, 2021 5:37:28 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [30a1d3d7a4639a1792eae9dac52583a7, isElementDisplayed {id=f635574a-c1fa-4949-b1d6-e252d66856a0}]
+[main] INFO org.openqa.selenium.WebDriver - Before click on element with tagname = button, enabled = true, is_displayed = true 
+июл 20, 2021 5:37:28 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: clickElement [30a1d3d7a4639a1792eae9dac52583a7, clickElement {id=f635574a-c1fa-4949-b1d6-e252d66856a0}]
+июл 20, 2021 5:37:33 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [30a1d3d7a4639a1792eae9dac52583a7, clickElement {id=f635574a-c1fa-4949-b1d6-e252d66856a0}]
+июл 20, 2021 5:37:33 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: getElementTagName [30a1d3d7a4639a1792eae9dac52583a7, getElementTagName {id=f635574a-c1fa-4949-b1d6-e252d66856a0}]
+июл 20, 2021 5:37:33 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [30a1d3d7a4639a1792eae9dac52583a7, getElementTagName {id=f635574a-c1fa-4949-b1d6-e252d66856a0}]
+июл 20, 2021 5:37:33 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: screenshot [30a1d3d7a4639a1792eae9dac52583a7, screenshot {}]
+июл 20, 2021 5:37:33 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [30a1d3d7a4639a1792eae9dac52583a7, screenshot {}]
+[main] ERROR org.openqa.selenium.WebDriver - onException: Screenshot saved in target/failure-screenshot-1626791853068.png
+июл 20, 2021 5:37:33 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: getLog [30a1d3d7a4639a1792eae9dac52583a7, getLog {type=browser}]
+июл 20, 2021 5:37:33 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [30a1d3d7a4639a1792eae9dac52583a7, getLog {type=browser}]
+июл 20, 2021 5:37:33 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: quit [30a1d3d7a4639a1792eae9dac52583a7, quit {}]
+июл 20, 2021 5:37:34 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [30a1d3d7a4639a1792eae9dac52583a7, quit {}]
+]]></system-err>
+  </testcase>
+  <testcase name="checkMainNavigationTabsTest{NavigationBarTabs}[4]" classname="features.navigation.NavigationTest" time="10.466">
+    <error message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=91.0.4472.164)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-UBVVRM2&apos;, ip: &apos;192.168.43.92&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\19FB~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65300}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e1522a5cf6f7c5b79a03896807a2c9da" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=91.0.4472.164)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UBVVRM2', ip: '192.168.43.92', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\19FB~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65300}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e1522a5cf6f7c5b79a03896807a2c9da
+	at features.navigation.NavigationTest.checkMainNavigationTabsTest(NavigationTest.java:20)
+</error>
+    <system-out><![CDATA[========================= START LOG BROWSER =============
+========================= END LOG BROWSER =============
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 33284
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+июл 20, 2021 5:37:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+июл 20, 2021 5:37:35 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: setTimeout [e1522a5cf6f7c5b79a03896807a2c9da, setTimeout {implicit=10000}]
+июл 20, 2021 5:37:35 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [e1522a5cf6f7c5b79a03896807a2c9da, setTimeout {implicit=10000}]
+июл 20, 2021 5:37:35 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: maximizeCurrentWindow [e1522a5cf6f7c5b79a03896807a2c9da, maximizeCurrentWindow {}]
+июл 20, 2021 5:37:35 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [e1522a5cf6f7c5b79a03896807a2c9da, maximizeCurrentWindow {}]
+июл 20, 2021 5:37:35 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: get [e1522a5cf6f7c5b79a03896807a2c9da, get {url=https://crm.geekbrains.space/user/login}]
+июл 20, 2021 5:37:38 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [e1522a5cf6f7c5b79a03896807a2c9da, get {url=https://crm.geekbrains.space/user/login}]
+[main] INFO org.openqa.selenium.WebDriver - Перед поиском элемента path: By.cssSelector: input[id='prependedInput']
+июл 20, 2021 5:37:38 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [e1522a5cf6f7c5b79a03896807a2c9da, findElement {using=css selector, value=input[id='prependedInput']}]
+июл 20, 2021 5:37:38 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [e1522a5cf6f7c5b79a03896807a2c9da, findElement {using=css selector, value=input[id='prependedInput']}]
+июл 20, 2021 5:37:38 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: sendKeysToElement [e1522a5cf6f7c5b79a03896807a2c9da, sendKeysToElement {id=62b29136-587f-466c-acec-fe329b238d7a, value=[Ljava.lang.CharSequence;@4a336377}]
+июл 20, 2021 5:37:38 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [e1522a5cf6f7c5b79a03896807a2c9da, sendKeysToElement {id=62b29136-587f-466c-acec-fe329b238d7a, value=[Ljava.lang.CharSequence;@4a336377}]
+[main] INFO org.openqa.selenium.WebDriver - Перед поиском элемента path: By.cssSelector: .span2[name='_password']
+июл 20, 2021 5:37:38 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [e1522a5cf6f7c5b79a03896807a2c9da, findElement {using=css selector, value=.span2[name='_password']}]
+июл 20, 2021 5:37:38 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [e1522a5cf6f7c5b79a03896807a2c9da, findElement {using=css selector, value=.span2[name='_password']}]
+июл 20, 2021 5:37:38 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: sendKeysToElement [e1522a5cf6f7c5b79a03896807a2c9da, sendKeysToElement {id=9cfca2b3-e6d6-46cd-b1c6-1e787f75321d, value=[Ljava.lang.CharSequence;@5d01b0d8}]
+июл 20, 2021 5:37:38 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [e1522a5cf6f7c5b79a03896807a2c9da, sendKeysToElement {id=9cfca2b3-e6d6-46cd-b1c6-1e787f75321d, value=[Ljava.lang.CharSequence;@5d01b0d8}]
+[main] INFO org.openqa.selenium.WebDriver - Перед поиском элемента path: By.xpath: .//button[@name='_submit']
+июл 20, 2021 5:37:38 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [e1522a5cf6f7c5b79a03896807a2c9da, findElement {using=xpath, value=.//button[@name='_submit']}]
+июл 20, 2021 5:37:38 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [e1522a5cf6f7c5b79a03896807a2c9da, findElement {using=xpath, value=.//button[@name='_submit']}]
+июл 20, 2021 5:37:38 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: getElementTagName [e1522a5cf6f7c5b79a03896807a2c9da, getElementTagName {id=12610990-fdf9-4b27-8411-d67ae1fcd0cf}]
+июл 20, 2021 5:37:38 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [e1522a5cf6f7c5b79a03896807a2c9da, getElementTagName {id=12610990-fdf9-4b27-8411-d67ae1fcd0cf}]
+июл 20, 2021 5:37:38 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: isElementEnabled [e1522a5cf6f7c5b79a03896807a2c9da, isElementEnabled {id=12610990-fdf9-4b27-8411-d67ae1fcd0cf}]
+июл 20, 2021 5:37:38 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [e1522a5cf6f7c5b79a03896807a2c9da, isElementEnabled {id=12610990-fdf9-4b27-8411-d67ae1fcd0cf}]
+июл 20, 2021 5:37:38 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: isElementDisplayed [e1522a5cf6f7c5b79a03896807a2c9da, isElementDisplayed {id=12610990-fdf9-4b27-8411-d67ae1fcd0cf}]
+июл 20, 2021 5:37:38 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [e1522a5cf6f7c5b79a03896807a2c9da, isElementDisplayed {id=12610990-fdf9-4b27-8411-d67ae1fcd0cf}]
+[main] INFO org.openqa.selenium.WebDriver - Before click on element with tagname = button, enabled = true, is_displayed = true 
+июл 20, 2021 5:37:38 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: clickElement [e1522a5cf6f7c5b79a03896807a2c9da, clickElement {id=12610990-fdf9-4b27-8411-d67ae1fcd0cf}]
+июл 20, 2021 5:37:43 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [e1522a5cf6f7c5b79a03896807a2c9da, clickElement {id=12610990-fdf9-4b27-8411-d67ae1fcd0cf}]
+июл 20, 2021 5:37:43 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: getElementTagName [e1522a5cf6f7c5b79a03896807a2c9da, getElementTagName {id=12610990-fdf9-4b27-8411-d67ae1fcd0cf}]
+июл 20, 2021 5:37:43 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [e1522a5cf6f7c5b79a03896807a2c9da, getElementTagName {id=12610990-fdf9-4b27-8411-d67ae1fcd0cf}]
+июл 20, 2021 5:37:43 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: screenshot [e1522a5cf6f7c5b79a03896807a2c9da, screenshot {}]
+июл 20, 2021 5:37:43 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [e1522a5cf6f7c5b79a03896807a2c9da, screenshot {}]
+[main] ERROR org.openqa.selenium.WebDriver - onException: Screenshot saved in target/failure-screenshot-1626791863386.png
+июл 20, 2021 5:37:43 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: getLog [e1522a5cf6f7c5b79a03896807a2c9da, getLog {type=browser}]
+июл 20, 2021 5:37:43 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [e1522a5cf6f7c5b79a03896807a2c9da, getLog {type=browser}]
+июл 20, 2021 5:37:43 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: quit [e1522a5cf6f7c5b79a03896807a2c9da, quit {}]
+июл 20, 2021 5:37:44 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [e1522a5cf6f7c5b79a03896807a2c9da, quit {}]
+]]></system-err>
+  </testcase>
+  <testcase name="checkMainNavigationTabsTest{NavigationBarTabs}[5]" classname="features.navigation.NavigationTest" time="14.618">
+    <error message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=91.0.4472.164)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-UBVVRM2&apos;, ip: &apos;192.168.43.92&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\19FB~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52535}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 1a282e57ebd837a8b7ef3787e8a1d37c" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=91.0.4472.164)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UBVVRM2', ip: '192.168.43.92', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\19FB~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52535}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1a282e57ebd837a8b7ef3787e8a1d37c
+	at features.navigation.NavigationTest.checkMainNavigationTabsTest(NavigationTest.java:20)
+</error>
+    <system-out><![CDATA[========================= START LOG BROWSER =============
+========================= END LOG BROWSER =============
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 17329
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+июл 20, 2021 5:37:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+июл 20, 2021 5:37:45 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: setTimeout [1a282e57ebd837a8b7ef3787e8a1d37c, setTimeout {implicit=10000}]
+июл 20, 2021 5:37:45 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [1a282e57ebd837a8b7ef3787e8a1d37c, setTimeout {implicit=10000}]
+июл 20, 2021 5:37:45 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: maximizeCurrentWindow [1a282e57ebd837a8b7ef3787e8a1d37c, maximizeCurrentWindow {}]
+июл 20, 2021 5:37:45 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [1a282e57ebd837a8b7ef3787e8a1d37c, maximizeCurrentWindow {}]
+июл 20, 2021 5:37:45 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: get [1a282e57ebd837a8b7ef3787e8a1d37c, get {url=https://crm.geekbrains.space/user/login}]
+июл 20, 2021 5:37:53 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [1a282e57ebd837a8b7ef3787e8a1d37c, get {url=https://crm.geekbrains.space/user/login}]
+[main] INFO org.openqa.selenium.WebDriver - Перед поиском элемента path: By.cssSelector: input[id='prependedInput']
+июл 20, 2021 5:37:53 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [1a282e57ebd837a8b7ef3787e8a1d37c, findElement {using=css selector, value=input[id='prependedInput']}]
+июл 20, 2021 5:37:53 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [1a282e57ebd837a8b7ef3787e8a1d37c, findElement {using=css selector, value=input[id='prependedInput']}]
+июл 20, 2021 5:37:53 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: sendKeysToElement [1a282e57ebd837a8b7ef3787e8a1d37c, sendKeysToElement {id=e6986d52-102b-496a-9ce7-ba19630fbc47, value=[Ljava.lang.CharSequence;@6b2e9db2}]
+июл 20, 2021 5:37:53 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [1a282e57ebd837a8b7ef3787e8a1d37c, sendKeysToElement {id=e6986d52-102b-496a-9ce7-ba19630fbc47, value=[Ljava.lang.CharSequence;@6b2e9db2}]
+[main] INFO org.openqa.selenium.WebDriver - Перед поиском элемента path: By.cssSelector: .span2[name='_password']
+июл 20, 2021 5:37:53 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [1a282e57ebd837a8b7ef3787e8a1d37c, findElement {using=css selector, value=.span2[name='_password']}]
+июл 20, 2021 5:37:53 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [1a282e57ebd837a8b7ef3787e8a1d37c, findElement {using=css selector, value=.span2[name='_password']}]
+июл 20, 2021 5:37:53 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: sendKeysToElement [1a282e57ebd837a8b7ef3787e8a1d37c, sendKeysToElement {id=b4a36f88-bfec-4090-aea6-461cfe5f1b8a, value=[Ljava.lang.CharSequence;@36c783ca}]
+июл 20, 2021 5:37:53 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [1a282e57ebd837a8b7ef3787e8a1d37c, sendKeysToElement {id=b4a36f88-bfec-4090-aea6-461cfe5f1b8a, value=[Ljava.lang.CharSequence;@36c783ca}]
+[main] INFO org.openqa.selenium.WebDriver - Перед поиском элемента path: By.xpath: .//button[@name='_submit']
+июл 20, 2021 5:37:53 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [1a282e57ebd837a8b7ef3787e8a1d37c, findElement {using=xpath, value=.//button[@name='_submit']}]
+июл 20, 2021 5:37:53 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [1a282e57ebd837a8b7ef3787e8a1d37c, findElement {using=xpath, value=.//button[@name='_submit']}]
+июл 20, 2021 5:37:53 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: getElementTagName [1a282e57ebd837a8b7ef3787e8a1d37c, getElementTagName {id=de565449-7e78-418b-8725-de0b86b06a28}]
+июл 20, 2021 5:37:53 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [1a282e57ebd837a8b7ef3787e8a1d37c, getElementTagName {id=de565449-7e78-418b-8725-de0b86b06a28}]
+июл 20, 2021 5:37:53 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: isElementEnabled [1a282e57ebd837a8b7ef3787e8a1d37c, isElementEnabled {id=de565449-7e78-418b-8725-de0b86b06a28}]
+июл 20, 2021 5:37:53 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [1a282e57ebd837a8b7ef3787e8a1d37c, isElementEnabled {id=de565449-7e78-418b-8725-de0b86b06a28}]
+июл 20, 2021 5:37:53 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: isElementDisplayed [1a282e57ebd837a8b7ef3787e8a1d37c, isElementDisplayed {id=de565449-7e78-418b-8725-de0b86b06a28}]
+июл 20, 2021 5:37:53 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [1a282e57ebd837a8b7ef3787e8a1d37c, isElementDisplayed {id=de565449-7e78-418b-8725-de0b86b06a28}]
+[main] INFO org.openqa.selenium.WebDriver - Before click on element with tagname = button, enabled = true, is_displayed = true 
+июл 20, 2021 5:37:53 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: clickElement [1a282e57ebd837a8b7ef3787e8a1d37c, clickElement {id=de565449-7e78-418b-8725-de0b86b06a28}]
+июл 20, 2021 5:37:58 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [1a282e57ebd837a8b7ef3787e8a1d37c, clickElement {id=de565449-7e78-418b-8725-de0b86b06a28}]
+июл 20, 2021 5:37:58 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: getElementTagName [1a282e57ebd837a8b7ef3787e8a1d37c, getElementTagName {id=de565449-7e78-418b-8725-de0b86b06a28}]
+июл 20, 2021 5:37:58 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [1a282e57ebd837a8b7ef3787e8a1d37c, getElementTagName {id=de565449-7e78-418b-8725-de0b86b06a28}]
+июл 20, 2021 5:37:58 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: screenshot [1a282e57ebd837a8b7ef3787e8a1d37c, screenshot {}]
+июл 20, 2021 5:37:58 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [1a282e57ebd837a8b7ef3787e8a1d37c, screenshot {}]
+[main] ERROR org.openqa.selenium.WebDriver - onException: Screenshot saved in target/failure-screenshot-1626791878177.png
+июл 20, 2021 5:37:58 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: getLog [1a282e57ebd837a8b7ef3787e8a1d37c, getLog {type=browser}]
+июл 20, 2021 5:37:58 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [1a282e57ebd837a8b7ef3787e8a1d37c, getLog {type=browser}]
+июл 20, 2021 5:37:58 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: quit [1a282e57ebd837a8b7ef3787e8a1d37c, quit {}]
+июл 20, 2021 5:37:59 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [1a282e57ebd837a8b7ef3787e8a1d37c, quit {}]
+]]></system-err>
+  </testcase>
+  <testcase name="checkMainNavigationTabsTest{NavigationBarTabs}[6]" classname="features.navigation.NavigationTest" time="11.785">
+    <error message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=91.0.4472.164)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-UBVVRM2&apos;, ip: &apos;192.168.43.92&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\19FB~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49792}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: cec0d00f4fb706c990873939ff6718c6" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=91.0.4472.164)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UBVVRM2', ip: '192.168.43.92', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\19FB~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49792}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cec0d00f4fb706c990873939ff6718c6
+	at features.navigation.NavigationTest.checkMainNavigationTabsTest(NavigationTest.java:20)
+</error>
+    <system-out><![CDATA[========================= START LOG BROWSER =============
+========================= END LOG BROWSER =============
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 20104
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+июл 20, 2021 5:38:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+июл 20, 2021 5:38:00 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: setTimeout [cec0d00f4fb706c990873939ff6718c6, setTimeout {implicit=10000}]
+июл 20, 2021 5:38:00 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [cec0d00f4fb706c990873939ff6718c6, setTimeout {implicit=10000}]
+июл 20, 2021 5:38:00 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: maximizeCurrentWindow [cec0d00f4fb706c990873939ff6718c6, maximizeCurrentWindow {}]
+июл 20, 2021 5:38:00 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [cec0d00f4fb706c990873939ff6718c6, maximizeCurrentWindow {}]
+июл 20, 2021 5:38:00 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: get [cec0d00f4fb706c990873939ff6718c6, get {url=https://crm.geekbrains.space/user/login}]
+июл 20, 2021 5:38:04 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [cec0d00f4fb706c990873939ff6718c6, get {url=https://crm.geekbrains.space/user/login}]
+[main] INFO org.openqa.selenium.WebDriver - Перед поиском элемента path: By.cssSelector: input[id='prependedInput']
+июл 20, 2021 5:38:04 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [cec0d00f4fb706c990873939ff6718c6, findElement {using=css selector, value=input[id='prependedInput']}]
+июл 20, 2021 5:38:04 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [cec0d00f4fb706c990873939ff6718c6, findElement {using=css selector, value=input[id='prependedInput']}]
+июл 20, 2021 5:38:04 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: sendKeysToElement [cec0d00f4fb706c990873939ff6718c6, sendKeysToElement {id=322bdaa2-96ee-4608-b17d-5ad8c3f03673, value=[Ljava.lang.CharSequence;@2dd8a273}]
+июл 20, 2021 5:38:05 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [cec0d00f4fb706c990873939ff6718c6, sendKeysToElement {id=322bdaa2-96ee-4608-b17d-5ad8c3f03673, value=[Ljava.lang.CharSequence;@2dd8a273}]
+[main] INFO org.openqa.selenium.WebDriver - Перед поиском элемента path: By.cssSelector: .span2[name='_password']
+июл 20, 2021 5:38:05 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [cec0d00f4fb706c990873939ff6718c6, findElement {using=css selector, value=.span2[name='_password']}]
+июл 20, 2021 5:38:05 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [cec0d00f4fb706c990873939ff6718c6, findElement {using=css selector, value=.span2[name='_password']}]
+июл 20, 2021 5:38:05 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: sendKeysToElement [cec0d00f4fb706c990873939ff6718c6, sendKeysToElement {id=6d04fca3-608b-4a75-9782-902c743e2aa7, value=[Ljava.lang.CharSequence;@2b2b7e3c}]
+июл 20, 2021 5:38:05 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [cec0d00f4fb706c990873939ff6718c6, sendKeysToElement {id=6d04fca3-608b-4a75-9782-902c743e2aa7, value=[Ljava.lang.CharSequence;@2b2b7e3c}]
+[main] INFO org.openqa.selenium.WebDriver - Перед поиском элемента path: By.xpath: .//button[@name='_submit']
+июл 20, 2021 5:38:05 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [cec0d00f4fb706c990873939ff6718c6, findElement {using=xpath, value=.//button[@name='_submit']}]
+июл 20, 2021 5:38:05 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [cec0d00f4fb706c990873939ff6718c6, findElement {using=xpath, value=.//button[@name='_submit']}]
+июл 20, 2021 5:38:05 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: getElementTagName [cec0d00f4fb706c990873939ff6718c6, getElementTagName {id=a592b580-b442-4c89-9a5a-25ebe42c5e07}]
+июл 20, 2021 5:38:05 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [cec0d00f4fb706c990873939ff6718c6, getElementTagName {id=a592b580-b442-4c89-9a5a-25ebe42c5e07}]
+июл 20, 2021 5:38:05 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: isElementEnabled [cec0d00f4fb706c990873939ff6718c6, isElementEnabled {id=a592b580-b442-4c89-9a5a-25ebe42c5e07}]
+июл 20, 2021 5:38:05 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [cec0d00f4fb706c990873939ff6718c6, isElementEnabled {id=a592b580-b442-4c89-9a5a-25ebe42c5e07}]
+июл 20, 2021 5:38:05 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: isElementDisplayed [cec0d00f4fb706c990873939ff6718c6, isElementDisplayed {id=a592b580-b442-4c89-9a5a-25ebe42c5e07}]
+июл 20, 2021 5:38:05 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [cec0d00f4fb706c990873939ff6718c6, isElementDisplayed {id=a592b580-b442-4c89-9a5a-25ebe42c5e07}]
+[main] INFO org.openqa.selenium.WebDriver - Before click on element with tagname = button, enabled = true, is_displayed = true 
+июл 20, 2021 5:38:05 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: clickElement [cec0d00f4fb706c990873939ff6718c6, clickElement {id=a592b580-b442-4c89-9a5a-25ebe42c5e07}]
+июл 20, 2021 5:38:09 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [cec0d00f4fb706c990873939ff6718c6, clickElement {id=a592b580-b442-4c89-9a5a-25ebe42c5e07}]
+июл 20, 2021 5:38:09 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: getElementTagName [cec0d00f4fb706c990873939ff6718c6, getElementTagName {id=a592b580-b442-4c89-9a5a-25ebe42c5e07}]
+июл 20, 2021 5:38:09 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [cec0d00f4fb706c990873939ff6718c6, getElementTagName {id=a592b580-b442-4c89-9a5a-25ebe42c5e07}]
+июл 20, 2021 5:38:09 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: screenshot [cec0d00f4fb706c990873939ff6718c6, screenshot {}]
+июл 20, 2021 5:38:10 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [cec0d00f4fb706c990873939ff6718c6, screenshot {}]
+[main] ERROR org.openqa.selenium.WebDriver - onException: Screenshot saved in target/failure-screenshot-1626791889885.png
+июл 20, 2021 5:38:10 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: getLog [cec0d00f4fb706c990873939ff6718c6, getLog {type=browser}]
+июл 20, 2021 5:38:10 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [cec0d00f4fb706c990873939ff6718c6, getLog {type=browser}]
+июл 20, 2021 5:38:10 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: quit [cec0d00f4fb706c990873939ff6718c6, quit {}]
+июл 20, 2021 5:38:10 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [cec0d00f4fb706c990873939ff6718c6, quit {}]
+]]></system-err>
+  </testcase>
+  <testcase name="checkMainNavigationTabsTest{NavigationBarTabs}[7]" classname="features.navigation.NavigationTest" time="10.61">
+    <error message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=91.0.4472.164)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-UBVVRM2&apos;, ip: &apos;192.168.43.92&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\19FB~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49893}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: b6b6bdb2a8aef6cf9393046521def743" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=91.0.4472.164)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UBVVRM2', ip: '192.168.43.92', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\19FB~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49893}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b6b6bdb2a8aef6cf9393046521def743
+	at features.navigation.NavigationTest.checkMainNavigationTabsTest(NavigationTest.java:20)
+</error>
+    <system-out><![CDATA[========================= START LOG BROWSER =============
+========================= END LOG BROWSER =============
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 18091
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+июл 20, 2021 5:38:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+июл 20, 2021 5:38:11 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: setTimeout [b6b6bdb2a8aef6cf9393046521def743, setTimeout {implicit=10000}]
+июл 20, 2021 5:38:12 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [b6b6bdb2a8aef6cf9393046521def743, setTimeout {implicit=10000}]
+июл 20, 2021 5:38:12 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: maximizeCurrentWindow [b6b6bdb2a8aef6cf9393046521def743, maximizeCurrentWindow {}]
+июл 20, 2021 5:38:12 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [b6b6bdb2a8aef6cf9393046521def743, maximizeCurrentWindow {}]
+июл 20, 2021 5:38:12 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: get [b6b6bdb2a8aef6cf9393046521def743, get {url=https://crm.geekbrains.space/user/login}]
+июл 20, 2021 5:38:15 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [b6b6bdb2a8aef6cf9393046521def743, get {url=https://crm.geekbrains.space/user/login}]
+[main] INFO org.openqa.selenium.WebDriver - Перед поиском элемента path: By.cssSelector: input[id='prependedInput']
+июл 20, 2021 5:38:15 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [b6b6bdb2a8aef6cf9393046521def743, findElement {using=css selector, value=input[id='prependedInput']}]
+июл 20, 2021 5:38:15 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [b6b6bdb2a8aef6cf9393046521def743, findElement {using=css selector, value=input[id='prependedInput']}]
+июл 20, 2021 5:38:15 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: sendKeysToElement [b6b6bdb2a8aef6cf9393046521def743, sendKeysToElement {id=9fdf06bc-e68b-47f3-a925-fd3ccf56791b, value=[Ljava.lang.CharSequence;@56299b0e}]
+июл 20, 2021 5:38:15 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [b6b6bdb2a8aef6cf9393046521def743, sendKeysToElement {id=9fdf06bc-e68b-47f3-a925-fd3ccf56791b, value=[Ljava.lang.CharSequence;@56299b0e}]
+[main] INFO org.openqa.selenium.WebDriver - Перед поиском элемента path: By.cssSelector: .span2[name='_password']
+июл 20, 2021 5:38:15 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [b6b6bdb2a8aef6cf9393046521def743, findElement {using=css selector, value=.span2[name='_password']}]
+июл 20, 2021 5:38:16 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [b6b6bdb2a8aef6cf9393046521def743, findElement {using=css selector, value=.span2[name='_password']}]
+июл 20, 2021 5:38:16 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: sendKeysToElement [b6b6bdb2a8aef6cf9393046521def743, sendKeysToElement {id=2856517f-418a-4bc6-bd96-60aa65a2d2eb, value=[Ljava.lang.CharSequence;@1a819901}]
+июл 20, 2021 5:38:16 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [b6b6bdb2a8aef6cf9393046521def743, sendKeysToElement {id=2856517f-418a-4bc6-bd96-60aa65a2d2eb, value=[Ljava.lang.CharSequence;@1a819901}]
+[main] INFO org.openqa.selenium.WebDriver - Перед поиском элемента path: By.xpath: .//button[@name='_submit']
+июл 20, 2021 5:38:16 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [b6b6bdb2a8aef6cf9393046521def743, findElement {using=xpath, value=.//button[@name='_submit']}]
+июл 20, 2021 5:38:16 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [b6b6bdb2a8aef6cf9393046521def743, findElement {using=xpath, value=.//button[@name='_submit']}]
+июл 20, 2021 5:38:16 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: getElementTagName [b6b6bdb2a8aef6cf9393046521def743, getElementTagName {id=298c7b5e-54ac-4f71-b578-121d66486965}]
+июл 20, 2021 5:38:16 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [b6b6bdb2a8aef6cf9393046521def743, getElementTagName {id=298c7b5e-54ac-4f71-b578-121d66486965}]
+июл 20, 2021 5:38:16 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: isElementEnabled [b6b6bdb2a8aef6cf9393046521def743, isElementEnabled {id=298c7b5e-54ac-4f71-b578-121d66486965}]
+июл 20, 2021 5:38:16 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [b6b6bdb2a8aef6cf9393046521def743, isElementEnabled {id=298c7b5e-54ac-4f71-b578-121d66486965}]
+июл 20, 2021 5:38:16 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: isElementDisplayed [b6b6bdb2a8aef6cf9393046521def743, isElementDisplayed {id=298c7b5e-54ac-4f71-b578-121d66486965}]
+июл 20, 2021 5:38:16 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [b6b6bdb2a8aef6cf9393046521def743, isElementDisplayed {id=298c7b5e-54ac-4f71-b578-121d66486965}]
+[main] INFO org.openqa.selenium.WebDriver - Before click on element with tagname = button, enabled = true, is_displayed = true 
+июл 20, 2021 5:38:16 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: clickElement [b6b6bdb2a8aef6cf9393046521def743, clickElement {id=298c7b5e-54ac-4f71-b578-121d66486965}]
+июл 20, 2021 5:38:20 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [b6b6bdb2a8aef6cf9393046521def743, clickElement {id=298c7b5e-54ac-4f71-b578-121d66486965}]
+июл 20, 2021 5:38:20 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: getElementTagName [b6b6bdb2a8aef6cf9393046521def743, getElementTagName {id=298c7b5e-54ac-4f71-b578-121d66486965}]
+июл 20, 2021 5:38:20 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [b6b6bdb2a8aef6cf9393046521def743, getElementTagName {id=298c7b5e-54ac-4f71-b578-121d66486965}]
+июл 20, 2021 5:38:20 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: screenshot [b6b6bdb2a8aef6cf9393046521def743, screenshot {}]
+июл 20, 2021 5:38:20 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [b6b6bdb2a8aef6cf9393046521def743, screenshot {}]
+[main] ERROR org.openqa.selenium.WebDriver - onException: Screenshot saved in target/failure-screenshot-1626791900536.png
+июл 20, 2021 5:38:20 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: getLog [b6b6bdb2a8aef6cf9393046521def743, getLog {type=browser}]
+июл 20, 2021 5:38:20 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [b6b6bdb2a8aef6cf9393046521def743, getLog {type=browser}]
+июл 20, 2021 5:38:20 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: quit [b6b6bdb2a8aef6cf9393046521def743, quit {}]
+июл 20, 2021 5:38:21 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [b6b6bdb2a8aef6cf9393046521def743, quit {}]
+]]></system-err>
+  </testcase>
+  <testcase name="checkMainNavigationTabsTest{NavigationBarTabs}[8]" classname="features.navigation.NavigationTest" time="11.029">
+    <error message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=91.0.4472.164)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-UBVVRM2&apos;, ip: &apos;192.168.43.92&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\19FB~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52570}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 9e9c575177aa79cd70ecc5af4b643280" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=91.0.4472.164)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UBVVRM2', ip: '192.168.43.92', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\19FB~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52570}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9e9c575177aa79cd70ecc5af4b643280
+	at features.navigation.NavigationTest.checkMainNavigationTabsTest(NavigationTest.java:20)
+</error>
+    <system-out><![CDATA[========================= START LOG BROWSER =============
+========================= END LOG BROWSER =============
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 36590
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+июл 20, 2021 5:38:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+июл 20, 2021 5:38:22 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: setTimeout [9e9c575177aa79cd70ecc5af4b643280, setTimeout {implicit=10000}]
+июл 20, 2021 5:38:22 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [9e9c575177aa79cd70ecc5af4b643280, setTimeout {implicit=10000}]
+июл 20, 2021 5:38:22 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: maximizeCurrentWindow [9e9c575177aa79cd70ecc5af4b643280, maximizeCurrentWindow {}]
+июл 20, 2021 5:38:22 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [9e9c575177aa79cd70ecc5af4b643280, maximizeCurrentWindow {}]
+июл 20, 2021 5:38:22 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: get [9e9c575177aa79cd70ecc5af4b643280, get {url=https://crm.geekbrains.space/user/login}]
+июл 20, 2021 5:38:26 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [9e9c575177aa79cd70ecc5af4b643280, get {url=https://crm.geekbrains.space/user/login}]
+[main] INFO org.openqa.selenium.WebDriver - Перед поиском элемента path: By.cssSelector: input[id='prependedInput']
+июл 20, 2021 5:38:26 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [9e9c575177aa79cd70ecc5af4b643280, findElement {using=css selector, value=input[id='prependedInput']}]
+июл 20, 2021 5:38:27 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [9e9c575177aa79cd70ecc5af4b643280, findElement {using=css selector, value=input[id='prependedInput']}]
+июл 20, 2021 5:38:27 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: sendKeysToElement [9e9c575177aa79cd70ecc5af4b643280, sendKeysToElement {id=7aa13946-9f15-40cb-ba61-f7df507b58c1, value=[Ljava.lang.CharSequence;@4e52d2f2}]
+июл 20, 2021 5:38:27 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [9e9c575177aa79cd70ecc5af4b643280, sendKeysToElement {id=7aa13946-9f15-40cb-ba61-f7df507b58c1, value=[Ljava.lang.CharSequence;@4e52d2f2}]
+[main] INFO org.openqa.selenium.WebDriver - Перед поиском элемента path: By.cssSelector: .span2[name='_password']
+июл 20, 2021 5:38:27 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [9e9c575177aa79cd70ecc5af4b643280, findElement {using=css selector, value=.span2[name='_password']}]
+июл 20, 2021 5:38:27 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [9e9c575177aa79cd70ecc5af4b643280, findElement {using=css selector, value=.span2[name='_password']}]
+июл 20, 2021 5:38:27 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: sendKeysToElement [9e9c575177aa79cd70ecc5af4b643280, sendKeysToElement {id=04ec24fa-65c0-44ed-bf2c-cc43bc219fd6, value=[Ljava.lang.CharSequence;@295d54d6}]
+июл 20, 2021 5:38:27 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [9e9c575177aa79cd70ecc5af4b643280, sendKeysToElement {id=04ec24fa-65c0-44ed-bf2c-cc43bc219fd6, value=[Ljava.lang.CharSequence;@295d54d6}]
+[main] INFO org.openqa.selenium.WebDriver - Перед поиском элемента path: By.xpath: .//button[@name='_submit']
+июл 20, 2021 5:38:27 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [9e9c575177aa79cd70ecc5af4b643280, findElement {using=xpath, value=.//button[@name='_submit']}]
+июл 20, 2021 5:38:27 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [9e9c575177aa79cd70ecc5af4b643280, findElement {using=xpath, value=.//button[@name='_submit']}]
+июл 20, 2021 5:38:27 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: getElementTagName [9e9c575177aa79cd70ecc5af4b643280, getElementTagName {id=a8f9c36e-03a4-484c-8563-009305e2f658}]
+июл 20, 2021 5:38:27 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [9e9c575177aa79cd70ecc5af4b643280, getElementTagName {id=a8f9c36e-03a4-484c-8563-009305e2f658}]
+июл 20, 2021 5:38:27 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: isElementEnabled [9e9c575177aa79cd70ecc5af4b643280, isElementEnabled {id=a8f9c36e-03a4-484c-8563-009305e2f658}]
+июл 20, 2021 5:38:27 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [9e9c575177aa79cd70ecc5af4b643280, isElementEnabled {id=a8f9c36e-03a4-484c-8563-009305e2f658}]
+июл 20, 2021 5:38:27 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: isElementDisplayed [9e9c575177aa79cd70ecc5af4b643280, isElementDisplayed {id=a8f9c36e-03a4-484c-8563-009305e2f658}]
+июл 20, 2021 5:38:27 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [9e9c575177aa79cd70ecc5af4b643280, isElementDisplayed {id=a8f9c36e-03a4-484c-8563-009305e2f658}]
+[main] INFO org.openqa.selenium.WebDriver - Before click on element with tagname = button, enabled = true, is_displayed = true 
+июл 20, 2021 5:38:27 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: clickElement [9e9c575177aa79cd70ecc5af4b643280, clickElement {id=a8f9c36e-03a4-484c-8563-009305e2f658}]
+июл 20, 2021 5:38:31 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [9e9c575177aa79cd70ecc5af4b643280, clickElement {id=a8f9c36e-03a4-484c-8563-009305e2f658}]
+июл 20, 2021 5:38:31 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: getElementTagName [9e9c575177aa79cd70ecc5af4b643280, getElementTagName {id=a8f9c36e-03a4-484c-8563-009305e2f658}]
+июл 20, 2021 5:38:31 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [9e9c575177aa79cd70ecc5af4b643280, getElementTagName {id=a8f9c36e-03a4-484c-8563-009305e2f658}]
+июл 20, 2021 5:38:31 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: screenshot [9e9c575177aa79cd70ecc5af4b643280, screenshot {}]
+июл 20, 2021 5:38:31 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [9e9c575177aa79cd70ecc5af4b643280, screenshot {}]
+[main] ERROR org.openqa.selenium.WebDriver - onException: Screenshot saved in target/failure-screenshot-1626791911592.png
+июл 20, 2021 5:38:31 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: getLog [9e9c575177aa79cd70ecc5af4b643280, getLog {type=browser}]
+июл 20, 2021 5:38:31 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [9e9c575177aa79cd70ecc5af4b643280, getLog {type=browser}]
+июл 20, 2021 5:38:31 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: quit [9e9c575177aa79cd70ecc5af4b643280, quit {}]
+июл 20, 2021 5:38:32 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [9e9c575177aa79cd70ecc5af4b643280, quit {}]
+]]></system-err>
+  </testcase>
+  <testcase name="checkMainNavigationTabsTest{NavigationBarTabs}[9]" classname="features.navigation.NavigationTest" time="11.196">
+    <error message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=91.0.4472.164)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-UBVVRM2&apos;, ip: &apos;192.168.43.92&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\19FB~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53840}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5b9d1206ad8dfceeb1b3f04e1fea2616" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=91.0.4472.164)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UBVVRM2', ip: '192.168.43.92', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\19FB~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53840}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5b9d1206ad8dfceeb1b3f04e1fea2616
+	at features.navigation.NavigationTest.checkMainNavigationTabsTest(NavigationTest.java:20)
+</error>
+    <system-out><![CDATA[========================= START LOG BROWSER =============
+========================= END LOG BROWSER =============
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 28710
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+июл 20, 2021 5:38:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+июл 20, 2021 5:38:33 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: setTimeout [5b9d1206ad8dfceeb1b3f04e1fea2616, setTimeout {implicit=10000}]
+июл 20, 2021 5:38:33 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [5b9d1206ad8dfceeb1b3f04e1fea2616, setTimeout {implicit=10000}]
+июл 20, 2021 5:38:33 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: maximizeCurrentWindow [5b9d1206ad8dfceeb1b3f04e1fea2616, maximizeCurrentWindow {}]
+июл 20, 2021 5:38:33 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [5b9d1206ad8dfceeb1b3f04e1fea2616, maximizeCurrentWindow {}]
+июл 20, 2021 5:38:33 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: get [5b9d1206ad8dfceeb1b3f04e1fea2616, get {url=https://crm.geekbrains.space/user/login}]
+июл 20, 2021 5:38:37 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [5b9d1206ad8dfceeb1b3f04e1fea2616, get {url=https://crm.geekbrains.space/user/login}]
+[main] INFO org.openqa.selenium.WebDriver - Перед поиском элемента path: By.cssSelector: input[id='prependedInput']
+июл 20, 2021 5:38:37 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [5b9d1206ad8dfceeb1b3f04e1fea2616, findElement {using=css selector, value=input[id='prependedInput']}]
+июл 20, 2021 5:38:37 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [5b9d1206ad8dfceeb1b3f04e1fea2616, findElement {using=css selector, value=input[id='prependedInput']}]
+июл 20, 2021 5:38:37 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: sendKeysToElement [5b9d1206ad8dfceeb1b3f04e1fea2616, sendKeysToElement {id=ca02685b-4896-464c-b958-24f93e326a27, value=[Ljava.lang.CharSequence;@520c3dcb}]
+июл 20, 2021 5:38:37 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [5b9d1206ad8dfceeb1b3f04e1fea2616, sendKeysToElement {id=ca02685b-4896-464c-b958-24f93e326a27, value=[Ljava.lang.CharSequence;@520c3dcb}]
+[main] INFO org.openqa.selenium.WebDriver - Перед поиском элемента path: By.cssSelector: .span2[name='_password']
+июл 20, 2021 5:38:37 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [5b9d1206ad8dfceeb1b3f04e1fea2616, findElement {using=css selector, value=.span2[name='_password']}]
+июл 20, 2021 5:38:37 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [5b9d1206ad8dfceeb1b3f04e1fea2616, findElement {using=css selector, value=.span2[name='_password']}]
+июл 20, 2021 5:38:37 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: sendKeysToElement [5b9d1206ad8dfceeb1b3f04e1fea2616, sendKeysToElement {id=d1b10364-e0a9-4b9c-b7ff-ddce607f97ed, value=[Ljava.lang.CharSequence;@6e017950}]
+июл 20, 2021 5:38:38 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [5b9d1206ad8dfceeb1b3f04e1fea2616, sendKeysToElement {id=d1b10364-e0a9-4b9c-b7ff-ddce607f97ed, value=[Ljava.lang.CharSequence;@6e017950}]
+[main] INFO org.openqa.selenium.WebDriver - Перед поиском элемента path: By.xpath: .//button[@name='_submit']
+июл 20, 2021 5:38:38 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: findElement [5b9d1206ad8dfceeb1b3f04e1fea2616, findElement {using=xpath, value=.//button[@name='_submit']}]
+июл 20, 2021 5:38:38 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [5b9d1206ad8dfceeb1b3f04e1fea2616, findElement {using=xpath, value=.//button[@name='_submit']}]
+июл 20, 2021 5:38:38 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: getElementTagName [5b9d1206ad8dfceeb1b3f04e1fea2616, getElementTagName {id=38c116cc-9ea1-4cfb-bace-664f2d8a536d}]
+июл 20, 2021 5:38:38 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [5b9d1206ad8dfceeb1b3f04e1fea2616, getElementTagName {id=38c116cc-9ea1-4cfb-bace-664f2d8a536d}]
+июл 20, 2021 5:38:38 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: isElementEnabled [5b9d1206ad8dfceeb1b3f04e1fea2616, isElementEnabled {id=38c116cc-9ea1-4cfb-bace-664f2d8a536d}]
+июл 20, 2021 5:38:38 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [5b9d1206ad8dfceeb1b3f04e1fea2616, isElementEnabled {id=38c116cc-9ea1-4cfb-bace-664f2d8a536d}]
+июл 20, 2021 5:38:38 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: isElementDisplayed [5b9d1206ad8dfceeb1b3f04e1fea2616, isElementDisplayed {id=38c116cc-9ea1-4cfb-bace-664f2d8a536d}]
+июл 20, 2021 5:38:38 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [5b9d1206ad8dfceeb1b3f04e1fea2616, isElementDisplayed {id=38c116cc-9ea1-4cfb-bace-664f2d8a536d}]
+[main] INFO org.openqa.selenium.WebDriver - Before click on element with tagname = button, enabled = true, is_displayed = true 
+июл 20, 2021 5:38:38 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: clickElement [5b9d1206ad8dfceeb1b3f04e1fea2616, clickElement {id=38c116cc-9ea1-4cfb-bace-664f2d8a536d}]
+июл 20, 2021 5:38:42 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [5b9d1206ad8dfceeb1b3f04e1fea2616, clickElement {id=38c116cc-9ea1-4cfb-bace-664f2d8a536d}]
+июл 20, 2021 5:38:42 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: getElementTagName [5b9d1206ad8dfceeb1b3f04e1fea2616, getElementTagName {id=38c116cc-9ea1-4cfb-bace-664f2d8a536d}]
+июл 20, 2021 5:38:42 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [5b9d1206ad8dfceeb1b3f04e1fea2616, getElementTagName {id=38c116cc-9ea1-4cfb-bace-664f2d8a536d}]
+июл 20, 2021 5:38:42 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: screenshot [5b9d1206ad8dfceeb1b3f04e1fea2616, screenshot {}]
+июл 20, 2021 5:38:42 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [5b9d1206ad8dfceeb1b3f04e1fea2616, screenshot {}]
+[main] ERROR org.openqa.selenium.WebDriver - onException: Screenshot saved in target/failure-screenshot-1626791922756.png
+июл 20, 2021 5:38:42 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: getLog [5b9d1206ad8dfceeb1b3f04e1fea2616, getLog {type=browser}]
+июл 20, 2021 5:38:42 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [5b9d1206ad8dfceeb1b3f04e1fea2616, getLog {type=browser}]
+июл 20, 2021 5:38:42 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executing: quit [5b9d1206ad8dfceeb1b3f04e1fea2616, quit {}]
+июл 20, 2021 5:38:43 PM org.openqa.selenium.remote.RemoteWebDriver log
+INFO: Executed: [5b9d1206ad8dfceeb1b3f04e1fea2616, quit {}]
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,5 @@
+common\Configuration.class
+features\expenses\NewExpensesTest.class
+base\BaseUITest.class
+features\login\PositiveLoginTest.class
+features\navigation\NavigationTest.class
